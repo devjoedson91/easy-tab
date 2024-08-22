@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:latest
+    restart: always
+    environment:
+      - POSTGRES_USER=neondb_owner
+      - POSTGRES_PASSWORD=eCva9u7GEjlZ
+    ports:
+      - 5432:5432
+
+  app:
+    build: .
+    ports:
+      - 3000:3000
