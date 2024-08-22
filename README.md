@@ -17,14 +17,15 @@ A aplicação consiste em cadastro de comandas em restaurantes, pizzarias, hambu
 
 ```bash
 # clonar repositório
-git clone https://github.com/devjoedson91/front-consig.git
 
-# entrar na pasta do projeto no cmd ou git bash
-cd front-consig
+No seu git bash execute: git clone https://github.com/devjoedson91/easy-tab.git
+
+# entrar na pasta do projeto no cmd
+cd easy-tab
 
 # executar o projeto
-instale as dependencias com yarn install
-execute o projeto com o comando yarn dev
+instale as dependencias com yarn install ou npm install
+execute o projeto com o comando npm run dev
 
 # Autor
 
