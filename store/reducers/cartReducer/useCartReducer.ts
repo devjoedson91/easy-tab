@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import { AppDispatch, RootState } from "@/store";
 import {
+  CartProduct,
   addItemCart,
   remove,
   removeItemCart,
@@ -14,7 +15,7 @@ export const useCartReducer = () => {
 
   const cart = useAppSelector((state: RootState) => state.cartReducer.cart);
 
-  const prevCartRef = useRef<Product[]>();
+  const prevCartRef = useRef<CartProduct[]>();
 
   useEffect(() => {
     prevCartRef.current = cart;
@@ -28,7 +29,7 @@ export const useCartReducer = () => {
     }
   }, [cart, cartPreviousValue]);
 
-  function addToCart(item: Product) {
+  function addToCart(item: CartProduct) {
     dispatch(addItemCart(item));
   }
 
