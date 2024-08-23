@@ -9,6 +9,7 @@ import Loading from "@/components/loading";
 import Header from "@/components/header";
 import { getProductsById } from "@/actions";
 import { useCartReducer } from "@/store/reducers/cartReducer/useCartReducer";
+import { CartProduct } from "@/store/reducers/cartReducer";
 
 type OrderProps = {
   params: {
@@ -42,7 +43,7 @@ export default function Order({ params }: OrderProps) {
   }, []);
 
   function handleAddItemCart() {
-    addToCart(product as Product);
+    addToCart(product as CartProduct);
   }
 
   function handleRemoveItemCart(product: Product) {
