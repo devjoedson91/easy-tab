@@ -5,7 +5,7 @@ import { Product } from "@prisma/client";
 import { Minus, Plus } from "lucide-react";
 import Image from "next/image";
 
-interface CartProps extends Product {
+export interface CartProps extends Product {
   amount: number;
   total: number;
 }
@@ -46,15 +46,16 @@ export default function CartItem({ item }: CartItemProps) {
           </div>
           <div className="border p-2 border-zinc800 rounded-md flex items-center justify-between">
             <button
-              onClick={() => handleRemoveItemCart()}
+              onClick={handleRemoveItemCart}
               disabled={(item.amount as number) === 0 || !item}
+              data-testid="remove-item"
             >
               <Minus size={22} color="#979797" />
             </button>
             <h1 className="font-bold text-base text-yelowDescription">
               {item.amount}
             </h1>
-            <button onClick={() => handleAddItemCart()}>
+            <button onClick={handleAddItemCart}>
               <Plus size={22} color="#979797" />
             </button>
           </div>

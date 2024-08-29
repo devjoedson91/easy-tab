@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartItem /> it should match snapshot 1`] = `
+<div
+  class="rounded-lg border border-slate-200 text-slate-950 shadow-sm dark:border-slate-800 dark:bg-slate-950 dark:text-slate-50 bg-secondary border-none"
+>
+  <div
+    class="p-6 py-3 px-4 w-full flex items-center justify-between"
+  >
+    <div
+      class="relative h-32 w-32"
+    >
+      <img
+        alt="Sorvete Especial"
+        class="rounded-md object-cover"
+        data-nimg="fill"
+        decoding="async"
+        loading="lazy"
+        sizes="100vw"
+        src="/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fb703fcaa-eb9c-4257-a08e-fba0f0e12fc1-pr8gxl.png&w=3840&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fb703fcaa-eb9c-4257-a08e-fba0f0e12fc1-pr8gxl.png&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fb703fcaa-eb9c-4257-a08e-fba0f0e12fc1-pr8gxl.png&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fb703fcaa-eb9c-4257-a08e-fba0f0e12fc1-pr8gxl.png&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fb703fcaa-eb9c-4257-a08e-fba0f0e12fc1-pr8gxl.png&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fb703fcaa-eb9c-4257-a08e-fba0f0e12fc1-pr8gxl.png&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fb703fcaa-eb9c-4257-a08e-fba0f0e12fc1-pr8gxl.png&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fb703fcaa-eb9c-4257-a08e-fba0f0e12fc1-pr8gxl.png&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Futfs.io%2Ff%2Fb703fcaa-eb9c-4257-a08e-fba0f0e12fc1-pr8gxl.png&w=3840&q=75 3840w"
+        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+      />
+    </div>
+    <div
+      class="flex flex-col w-36 gap-4"
+    >
+      <div
+        class="flex flex-col gap-4"
+      >
+        <h1
+          class="text-base text-white font-medium"
+        >
+          Sorvete Especial
+        </h1>
+        <p
+          class="text-yelowDescription text-base font-medium"
+        >
+          R$ 30,00
+        </p>
+      </div>
+      <div
+        class="border p-2 border-zinc800 rounded-md flex items-center justify-between"
+      >
+        <button
+          data-testid="remove-item"
+        >
+          <svg
+            class="lucide lucide-minus"
+            fill="none"
+            height="22"
+            stroke="#979797"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="22"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 12h14"
+            />
+          </svg>
+        </button>
+        <h1
+          class="font-bold text-base text-yelowDescription"
+        >
+          1
+        </h1>
+        <button>
+          <svg
+            class="lucide lucide-plus"
+            fill="none"
+            height="22"
+            stroke="#979797"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="22"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 12h14"
+            />
+            <path
+              d="M12 5v14"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
